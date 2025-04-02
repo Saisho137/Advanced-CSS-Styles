@@ -1,11 +1,12 @@
+import { AnimatedLogos } from "@/pages";
 import "./App.scss";
 
 function App() {
 	return (
 		<>
-			<h1>Title</h1>
-			<h2>Description</h2>
+			<h1>Styles Testing App</h1>
 			<Logo className="logo" />
+      <AnimatedLogos />
 		</>
 	);
 }
